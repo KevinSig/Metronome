@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PlayCircleFilledIcon from "mdi-react/PlayCircleFilledIcon";
 import PauseCircleFilledIcon from "mdi-react/PauseCircleFilledIcon";
 
-import "../Components/PlayButton.css";
+import "../styles/PlayButton.css";
 
 const PlayButton = (props) => {
 
