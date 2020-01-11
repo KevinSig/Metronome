@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.bpm-indicator-container {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.bpm-indicator-text {
+  font-size: 24px;
+  font-family: 'Asap';
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.slider {
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
