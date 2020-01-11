@@ -11,6 +11,7 @@ const PlayButton = (props) => {
     <div
       className="button"
       onClick={() => {
+        props.play()
         props.setIsPlaying(!props.isPlaying);
       }}
     >
