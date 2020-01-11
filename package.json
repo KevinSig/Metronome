@@ -7,7 +7,6 @@
     "dev": "next",
     "start": "next start",
     "build": "next build"
-
   },
   "repository": {
     "type": "git",
