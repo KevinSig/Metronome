@@ -1,15 +1,22 @@
-import React, {useState, useEffect} from 'react';
-import Play_Circle_Filled from 'mdi-react/paly_circle_filled'
+import React, { useState, useEffect } from "react";
+import PlayCircleFilledIcon from "mdi-react/PlayCircleFilledIcon";
+import PauseCircleFilledIcon from "mdi-react/PauseCircleFilledIcon";
 
-const PlayButton = () =>{
-    
-    return (
-        <div>
-            <Play_Circle_Filled/>
-        </div>
+import "../Components/PlayButton.css";
 
-    )
-
-}
+const PlayButton = (props) => {
 
 
+  return (
+    <div
+      className="button"
+      onClick={() => {
+        props.setIsPlaying(!props.isPlaying);
+      }}
+    >
+      {props.isPlaying ? <PauseCircleFilledIcon/> : <PlayCircleFilledIcon /> }
+    </div>
+  );
+};
+
+export default PlayButton;
