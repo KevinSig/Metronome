@@ -9,7 +9,7 @@ const Metronome = props => {
   return (
     <div>
       <BPMSlider bpm={bpm} setBpm={setBpm} />
-      <TSInput ts={ts} setTs={setTs} label={'Beats per Measure'}/>
+      <TSInput ts={ts} setTs={setTs} label={'Beats per Measure'} />
     </div>
   )
 }
