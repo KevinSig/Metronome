@@ -14,7 +14,7 @@ const TSInput = props => {
     <div className="field">
       <input
         type="number"
-        value={ts}
+        defaultValue={ts}
         placeholder={label}
         onChange={onChange}
         min={MIN_TS}
